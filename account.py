@@ -22,7 +22,7 @@ class Account:
             return True
     
     def get_balance(self):
-        return self.__account_balance
+        return f'${self.__account_balance:.2f}'
     
     def get_name(self):
         return self.__account_name
