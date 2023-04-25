@@ -5,7 +5,7 @@ class Account:
     A class representing details for an account object
     '''
     
-    def __init__(self, name) -> None:
+    def __init__(self, name: str) -> None:
         '''
         Constructor to create initial state of a account object.
         :param account_name : Account's name.
