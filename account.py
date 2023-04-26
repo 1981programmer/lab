@@ -7,9 +7,8 @@ class Account:
     
     def __init__(self, name: str) -> None:
         '''
-        Constructor to create initial state of a account object.
-        :param account_name : Account's name.
-        :param account_balance: Account's beginning balance of 0 dollars.
+        Function to create initial state of a account object.
+        :param name : Account's name.
         '''
         self.__account_name: str = name
         self.__account_balance: float = 0
