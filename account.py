@@ -41,12 +41,12 @@ class Account:
             self.__account_balance -= amount
             return True
     
-    def get_balance(self) -> str:
+    def get_balance(self) -> float:
         '''
         Method to access someone's account balance.
         :return: Someone's account balance in dollars.
         '''
-        return f'${self.__account_balance:.2f}'
+        return self.__account_balance
     
     def get_name(self) -> str:
         '''
